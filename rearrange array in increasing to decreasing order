@@ -1,0 +1,4 @@
+arr=[8,7,1,6,5,9]
+arr.sort()
+mid=len(arr)//2
+print(*arr[:mid],*arr[:mid-1:-1])
