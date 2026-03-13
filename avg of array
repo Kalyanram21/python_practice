@@ -1,0 +1,4 @@
+arr=[8,7,1,6,5,9]
+arr.sort()
+avg=sum(arr)/len(arr)
+print(avg)
