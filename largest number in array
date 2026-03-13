@@ -1,0 +1,6 @@
+arr=[12,14,23,78,52,64]
+large=arr[0]
+for i in arr:
+    if i>large:
+        large=i
+print(large)
